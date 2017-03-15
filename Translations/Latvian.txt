@@ -1,0 +1,235 @@
+[Header]
+"Picture Options"
+"Bildes opcijas"
+
+[Header]
+"Source Selection"
+"Avotu atlase"
+
+[Header]
+"Download Options"
+"Lejupielādes opcijas"
+
+[Header]
+"About"
+"Par"
+
+[Button / Action]
+"Start"
+"Sākt"
+
+[Button / Action]
+"Stop"
+"Beigt"
+
+[Option]
+"Use Tags:"
+"Izmantot tagus:"
+
+[Prompt]
+"tags here, separated by spaces" // This shows in the text box when nothing has been typed.
+"Ierakstiet tagus šeit, atdalot tos ar atstarpēm"
+
+[Label]
+"If this is checked, ProjectHED will only download images containing the tags you specify."
+"Ja šis ir atķeksēts, ProjectHED tikai lejupielādēs bildes saturot tagus kurus jūs norādat."
+
+[Label]
+"To use multiple tags in the same query, please separate individual tags with a space."
+"Lai izmantotu vairākus tagus tajā pašā meklešanā, lūdzu atdaliet individuālus tagus ar atstarpi."
+
+[Label]
+"Name tags are usually denoted as \"lastname_firstname\" as a single tag."
+"Vārda tagi parasti tiek pierakstīti kā "Uzvārds_Vārds", kā viens tags"
+
+[Check Box / Option]
+"Restrict Image Sizes:"
+"Aizliegt bilžu lielumus:"
+
+[Label]
+"If this is checked, ProjectHED will restrict image downloads to the options below."
+"Ja šis ir atķeksēts, tad ProjectHED aizliegs bilžu lejupielādes balstoties uz opcijām apakšā."
+
+[Choice / Choose One: Choice A]
+("w" represents the width of an image, measured in the number of pixels.
+ "h" represents the height of an image, measured in the number of pixels.)
+"Images must be <w>x<h> pixels."
+("w" nozīmē bildes platumu, nomērītu pikseļos.
+
+[Choice / Choose One: Choice B]
+(The variables used are the same as the above string.)
+"Images must exceed <w>x<h> pixels."
+""
+
+[Choice / Choose One: Choice C]
+(The variables used are the same as the above string.)
+"Images must be less than <w>x<h> pixels."
+""
+
+[Optional Setting]
+"Check dimensions before downloading." // If this is checked, each image will have its dimensions checked before being saved.
+""
+
+[Optional Setting]
+"Implement size restrictions in tag queries." // If this is checked, tags will be added to the search; this will restrict image sizes.
+""
+
+[Optional Setting]
+"Only download images with size tags." // If this is checked, only images that have their dimensions as tags will be downloaded.
+""
+
+[Column Header]
+"Source Name" // Sources are the different websites that images are downloaded from. If needed, "Source" can just be translated.
+""
+
+[Column Header]
+"Content" // Whether the content of the source is SFW or NSFW. Alternative translations could be "Age-restricted" or "Explicit".
+""
+
+[Column Header]
+"Limit" // The user can define if they want to limit how many files are downloaded from a certain source.
+""
+
+[Column Header]
+"Limit Amount" // Alternative translations could be "Amount".
+""
+
+[Choice / Choose One: Choice A]
+"No Limit" // This means all images from the source will be downloaded. Alternative translations could be "None".
+""
+
+[Choice / Choose One: Choice B]
+"Page Limit" // This means that there is limit on the pages of downloaded images. Alternative translations could be "Page" or "Pages".
+""
+
+[Choice / Choose One: Choice C]
+"Image Limit" // This means that the amount of images downloaded will be limited. Alternative translations could be "Image" or "Images".
+""
+
+[Button / Action]
+"Select All" // When this button is pressed, all the sources will be selected for download.
+""
+
+[Button / Action]
+"Deselect All" // When this button is pressed, all the sources will be unchecked.
+""
+
+[Label]
+"Download Directory:"
+""
+
+[Option]
+"Overwrite files that have the same filename"
+""
+
+[Option]
+("x" represents a number that determines how many times the program will attempt to redownload an image.)
+"Automatically retry failed downloads (max attempts: <x> tries)"
+""
+
+[Option]
+"After the download completes, show a notification in the system tray"
+""
+
+[Option]
+"After the download completes, open the download directory in Windows Explorer"
+""
+
+[Label]
+"ProjectHED is maintained by {Chezzy}."
+""
+
+[Label]
+"ProjectHED is on {GitHub}."
+""
+
+[Clickable Label]
+"To visit the repository, click here."
+""
+
+[Label]
+"Thank you for the love. {♡}"
+""
+
+[Label]
+"Status:" // This is a label that will display the current status of the program.
+""
+
+[Status Label]
+"Waiting." // The program isn't doing anything, so its status is "Waiting." Alternative translations could be "Idle".
+""
+
+[Status Label]
+("x" represents the amount of sources that are selected.)
+"<x> sources are selected."
+""
+
+[Status Label]
+"Couldn't start download - no valid download directory was set."
+""
+
+[Status Label]
+"Couldn't start download - no tags were specified while \"Use Tags\" is checked."
+""
+
+[Status Label]
+"Couldn't start download - no sources were checked."
+""
+
+[Status Label]
+"Couldn't start download - thread is still alive." // Alternative translations: "Couldn't start download - download is in progress."
+""
+
+[Status Label]
+("x" is a number representing the current amount of scraped files.
+ "y" is a number representing the current amount of downloaded files.)
+"Scraping all files (scraped: <x> / downloaded: <y>)!"
+""
+
+[Status Label]
+("x" is a number representing the current amount of downloaded files.
+ "y" is a number representing the total amount of files to download.)
+"Downloading all files (<x>/<y>)!"
+""
+
+[Status Label]
+("x" represents how many files were downloaded.
+ "a" represents how many total files were found.
+ "b" represents how many duplicate links there were.
+ "c" represents how many duplicate filenames there were.)
+"Finished downloading <x> files! {(ttl: <a>. dlnk: <b>. dfln: <c>.)}" // Only translate the "Finished downloading <x> files!" part.
+""
+
+[Status Label]
+("x" represents how many files were finished downloading before aborting the operation.)
+"Aborted download! Finished downloads: <x>."
+""
+
+[Status Label]
+"Started download!"
+""
+
+[Alert / Popup]
+("x" represents how many files were downloaded.)
+"ProjectHED has finished downloading <x> files!"
+""
+
+[Message Box Title]
+"Download In Progress"
+""
+
+[Message Box Text]
+"ProjectHED is still performing an operation! Are you sure you want to close ProjectHED now?"
+""
+
+[Message Box Title]
+"Warning"
+""
+
+[Message Box Text]
+"ProjectHED is still downloading images!"
+""
+
+[Message Box Text]
+"Are you sure you want to stop the operation?"
+""
